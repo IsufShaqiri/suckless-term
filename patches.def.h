@@ -14,7 +14,7 @@
  * when including this patch.
  * https://st.suckless.org/patches/alpha/
  */
-#define ALPHA_PATCH 0
+#define ALPHA_PATCH 1
 
 /* The alpha focus highlight patch allows the user to specify two distinct opacity values or
  * background colors in order to easily differentiate between focused and unfocused terminal
@@ -32,7 +32,7 @@
 /* This patch allows st to resize to any pixel size rather than snapping to character width/height.
  * https://st.suckless.org/patches/anysize/
  */
-#define ANYSIZE_PATCH 0
+#define ANYSIZE_PATCH 1
 
 /* A simple variant of the anysize patch that only changes the resize hints to allow the window to
  * be resized to any size.
@@ -63,18 +63,18 @@
  * This patch makes bold text rendered simply as bold, leaving the color unaffected.
  * https://st.suckless.org/patches/bold-is-not-bright/
  */
-#define BOLD_IS_NOT_BRIGHT_PATCH 0
+#define BOLD_IS_NOT_BRIGHT_PATCH 1
 
 /* This patch adds custom rendering of lines/blocks/braille characters for gapless alignment.
  * https://st.suckless.org/patches/boxdraw/
  */
-#define BOXDRAW_PATCH 0
+#define BOXDRAW_PATCH 1
 
 /* By default st only sets PRIMARY on selection.
  * This patch makes st set CLIPBOARD on selection.
  * https://st.suckless.org/patches/clipboard/
  */
-#define CLIPBOARD_PATCH 0
+#define CLIPBOARD_PATCH 1
 
 /* This patch allows st to be resized without cutting off text when the terminal window is
  * made larger again. Text does not wrap when the terminal window is made smaller.
@@ -83,7 +83,7 @@
  *
  * https://github.com/bakkeby/st-flexipatch/issues/34
  */
-#define COLUMNS_PATCH 0
+#define COLUMNS_PATCH 1
 
 /* Select and copy the last URL displayed with Mod+l. Multiple invocations cycle through the
  * available URLs.
@@ -178,7 +178,7 @@
  * So they will be used first for glyphs that are absent in the default font.
  * https://st.suckless.org/patches/font2/
  */
-#define FONT2_PATCH 0
+#define FONT2_PATCH 1
 
 /* This patch adds the ability to toggle st into fullscreen mode.
  * Two key bindings are defined: F11 which is typical with other applications and Alt+Enter
@@ -397,7 +397,7 @@
 /* Vertically center lines in the space available if you have set a larger chscale in config.h
  * https://st.suckless.org/patches/vertcenter/
  */
-#define VERTCENTER_PATCH 0
+#define VERTCENTER_PATCH 1
 
 /* The vim-browse patch offers the possibility to move through the terminal history-buffer,
  * search for strings using VIM-like motions, operations and quantifiers. It overlays the
@@ -439,16 +439,16 @@
 /* This patch allows user to specify the initial path st should use as the working directory.
  * https://st.suckless.org/patches/workingdir/
  */
-#define WORKINGDIR_PATCH 0
+#define WORKINGDIR_PATCH 1
 
 /* This patch adds the ability to configure st via Xresources. At startup, st will read and
  * apply the resources named in the resources[] array in config.h.
  * https://st.suckless.org/patches/xresources/
  */
-#define XRESOURCES_PATCH 0
+#define XRESOURCES_PATCH 1
 
 /* This patch adds the ability to reload the Xresources config when a SIGUSR1 signal is received
  * e.g.: killall -USR1 st
  * Depends on the XRESOURCES_PATCH.
  */
-#define XRESOURCES_RELOAD_PATCH 0
+#define XRESOURCES_RELOAD_PATCH 1
